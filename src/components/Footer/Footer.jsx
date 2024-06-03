@@ -1,7 +1,3 @@
-import { FaGithub } from "react-icons/fa";
-import { TiSocialLinkedin } from "react-icons/ti";
-import { FaInstagram } from "react-icons/fa";
-
 const Footer = () => {
   return(
     <div className="hidden fixed w-full bottom-0 sm:flex items-center justify-between border-t border-zinc-700 border-opacity-50 text-opacity-60">

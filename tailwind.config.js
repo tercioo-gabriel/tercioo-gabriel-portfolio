@@ -13,8 +13,12 @@ export default {
         'cell': '480px'
       },
       colors:{
-        'cyan-1000':'#011627',
-        'cyan-1100':'#011424',
+        'cyan-1000' : '#011627',
+        'cyan-1100' : '#011424',
+        'cyan-1200' : '#010f1b',
+      },
+      dropShadow: {
+        'white': '0px 2px 15px rgba(255, 255, 255, 0.5)',
       }
     },
   },

@@ -9,7 +9,7 @@ const HeaderMobile = () => {
   };
 
   return (
-    <div className="w-full top-2 sm:hidden">
+    <div className="fixed w-full sm:hidden">
       <div className="flex justify-between items-center px-3 py-2 bg-cyan-1100 border-b border-zinc-700">
         <div className="text-white text-1xl text-opacity-60 md:pr-24 lg:pr-32">tercioo-gabriel</div>
         {click ? (
