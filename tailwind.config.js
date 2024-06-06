@@ -10,7 +10,7 @@ export default {
         'fira-code': ['Fira Code', 'monospace', 'sans-serif'],
       },
       screens:{
-        'cell': '480px'
+        'xs': '380px'
       },
       colors:{
         'cyan-1000' : '#011627',
@@ -19,6 +19,16 @@ export default {
       },
       dropShadow: {
         'white': '0px 2px 15px rgba(255, 255, 255, 0.5)',
+        'indigo': '0px 0px 20px rgba(155, 135, 255, 0.9)',
+      },
+      animation: {
+        'pulse-slow': 'pulse-slow 1.8s ease-in-out infinite',
+      },
+      keyframes: {
+        'pulse-slow': {
+          '20%, 80%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.08)' },
+        },
       }
     },
   },

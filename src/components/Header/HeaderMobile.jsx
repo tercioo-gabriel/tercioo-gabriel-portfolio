@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { RiCloseLargeFill, RiMenuUnfold2Line } from "react-icons/ri";
 
 const HeaderMobile = () => {
@@ -21,18 +22,18 @@ const HeaderMobile = () => {
       </div>
       {!click && (
         <ul className="flex flex-col bg-cyan-1100">
-          <li className="px-4 py-4 border-y border-opacity-50 border-zinc-700 text-opacity-80 cursor-pointer">
+          <Link to="/" className="px-4 py-4 border-y border-opacity-50 border-zinc-700 text-opacity-80 cursor-pointer">
             <a className="bg-cyan-1100" href="">_início</a>
-          </li>
-          <li className="px-4 py-4 border-b border-opacity-50 border-zinc-700 text-opacity-80 cursor-pointer">
+          </Link>
+          <Link to="about" className="px-4 py-4 border-b border-opacity-50 border-zinc-700 text-opacity-80 cursor-pointer">
             <a href="">_sobre-mim</a>
-          </li>
-          <li className="px-4 py-4 border-b border-opacity-50 border-zinc-700 text-opacity-80 cursor-pointer">
+          </Link>
+          <Link to="projects" className="px-4 py-4 border-b border-opacity-50 border-zinc-700 text-opacity-80 cursor-pointer">
             <a href="">_projetos</a>
-          </li>
-          <li className="px-4 py-4 border-b border-opacity-50 border-zinc-700 text-opacity-80 cursor-pointer">
+          </Link>
+          <Link to="contact" className="px-4 py-4 border-b border-opacity-50 border-zinc-700 text-opacity-80 cursor-pointer">
             <a href="">_contato</a>
-          </li>
+          </Link>
         </ul>
       )}
     </div>
