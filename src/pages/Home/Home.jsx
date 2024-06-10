@@ -22,7 +22,7 @@ const Home = () =>{
             <span className="flex flex-col xs:flex-row xs:gap-3">
               <div className="flex gap-3">
                 <p className="text-indigo-500">const</p>
-                <p className="text-teal-500">curriculo</p>
+                <p className="text-teal-400">curriculo</p>
                 =
               </div>
               <a className="text-string hover:text-orange-500 text-wrap" download="curriculo-tercio-gabriel.pdf" href="/curriculo-tercio-gabriel.pdf">"https://tercioo-gabriel.com/download-curriculo"</a>
