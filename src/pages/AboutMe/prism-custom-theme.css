@@ -1,0 +1,52 @@
+/* prism-custom-theme.css */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #d4d4d4; /* Cor do texto */
+  background: none; /* Sem background */
+  font-family: 'Fira Code', Monaco, monospace;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* Comentários */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6a9955;
+}
+
+/* Strings */
+.token.string {
+  color: #ce9178;
+}
+
+/* Palavras-chave */
+.token.keyword {
+  color: #6366f1;
+}
+
+/* Funções */
+.token.function {
+  color: #dcdcaa;
+}
+
+/* Variáveis */
+.token.variable {
+  color: #9cdcfe;
+}
+
+/* Operadores */
+.token.operator {
+  color: #d4d4d4;
+}
+
+/* Números */
+.token.number {
+  color: #b5cea8;
+}
+
+/* Classes */
+.token.class-name {
+  color: #4ec9b0;
+}

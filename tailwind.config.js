@@ -16,6 +16,7 @@ export default {
         'cyan-1000' : '#011627',
         'cyan-1100' : '#011424',
         'cyan-1200' : '#010f1b',
+        'string': '#dd8461',
       },
       dropShadow: {
         'white': '0px 2px 15px rgba(255, 255, 255, 0.5)',
