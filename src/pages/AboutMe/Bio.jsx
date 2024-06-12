@@ -20,7 +20,7 @@ class SobreMim {
   return (
     <div className="mx-2 sm:mx-8 lg:mx-10 sm:mt-16">
       <pre className="whitespace-pre-wrap break-words">
-        <code className="language-js text-opacity-10">
+        <code className="language-js">
           {codeSnippet}
         </code>
       </pre>
